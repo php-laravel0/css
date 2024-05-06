@@ -1,0 +1,168 @@
+#banner{
+    display: flex;
+    flex-direction: column;
+    padding: 200px 80px;
+    border: 200px 150px;
+
+}
+#facebook {
+    color: blue;
+    font-size: 69px;
+    
+    font-family: "Heinemann-Bold";
+}
+
+@font-face {
+    font-family: "Heinemann-Bold";
+    src: url("Heinemann-Bold.woff") format('woff');
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+#banner .flex-container {
+    display: flex;
+    margin-left: 20px;
+    flex-direction: row;
+}
+
+#facebook #para {
+    display: flex;
+    font-size: large;
+    flex-direction: column;
+}
+
+.HalfBox {
+    display: flex;
+    margin-left: 150px;
+    flex-direction: row;
+}
+
+#signUp{
+    display: flex;
+    border-color: rgba(128, 128, 128, 0.007);
+    background-color: white;
+    flex-direction: column;
+    border-color: grey; 
+    border-radius: 8px;
+    box-shadow: inset;
+    max-height: 400px;
+    padding: 10px 4px;
+    min-height: 100px;
+    margin-right: 70px;
+}
+
+.signUpBox{
+    display: flex;
+    padding: 200px 80px;
+    margin-right: 1200px;
+
+    flex-direction: column;
+}
+#HalfBox{
+    margin: auto;
+}
+
+#LogIn{
+    background-color: #2074f4;
+    color: white;
+    border: #2596be;
+    padding: 12px 60px;
+    margin: 4px 20px;
+    border-radius: 5px;
+}
+html{
+    background-color: #f0f1f5;
+}
+
+
+.buttons{
+    border-radius: 5px;
+    font-size: smaller;
+    border-width: .8px;
+    border-color: gray ;
+    opacity: 50%;
+
+    padding: 10px 10px;
+    margin: 8px 7px;
+}
+
+.buttons:hover{
+    border-color: #2074f4;
+}
+
+#newAccount {
+    border: #44b430;
+    border-radius: 4px;
+    width: 150px;
+    height: 36px;
+    margin: 10px 100px;
+
+    padding: 4px 8px;
+    color: white;
+    padding: 1px 1px;
+    background-color: #44b430;
+}
+
+#pwForgot{
+    
+}
+
+#pageCreation{
+    margin: 20px 20px;
+}
+
+hr{
+    border: 0.025px solid gray;
+    opacity: 40%;
+    margin:1px 1px;
+    border-radius: 14px;
+    width: 340px;
+}
+
+a {
+    text-decoration: none;
+    color: #2074f4;
+    margin: 5px 110px ;
+}
+
+::placeholder:hover{
+    opacity: 65%;
+}
+p {
+    font-size: 19px;
+    height: 180px;
+}
+img{
+    max-width: 300p;
+    min-width: 100px
+}
+#footerHR{
+    width: 100%;
+}
+
+.footerEnd{
+
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: grey;
+    text-align: center;
+}
+
+#footerList{
+    list-style-type: none;
+    padding: 1px 20px;
+}
+li{
+    float: left;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+#footerDetails{
+    list-style-type: none;
+    padding: 1px 20px;
+}
