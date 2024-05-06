@@ -139,13 +139,17 @@ img{
 .footerEnd{
     color: grey;
     text-align: center;
-
     background-color: white;
-    max-width: 1200px;
 
-    border: 8px; 
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    left: 0;
+    bottom: 0;
     width: 100%;
-    height: auto;
+    right: 0;
+    top: 0;
+    border: 2px; 
     box-sizing: border-box; 
 }
 
@@ -182,8 +186,4 @@ ul{
     align-items: center;
     flex-wrap: wrap;
     height: auto;
-}
-
-*{
-    display: float;
 }
