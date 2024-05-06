@@ -159,6 +159,7 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 90px;
     flex-wrap: wrap;
     color:grey;
 }
@@ -184,6 +185,7 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 90px;
     flex-wrap: wrap;
     height: auto;
 }
