@@ -103,11 +103,6 @@ html{
     padding: 1px 1px;
     background-color: #44b430;
 }
-
-#pwForgot{
-    
-}
-
 #pageCreation{
     margin: 20px 20px;
 }
@@ -142,27 +137,47 @@ img{
 }
 
 .footerEnd{
-
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: white;
     color: grey;
     text-align: center;
+
+    background-color: white;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px;
+    box-sizing: border-box; 
 }
 
-#footerList{
+.footerList{
     list-style-type: none;
-    padding: 1px 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color:grey;
 }
 li{
     float: left;
     text-align: center;
     padding: 16px;
     text-decoration: none;
+    opacity: 50%;
 }
 
 #footerDetails{
     list-style-type: none;
     padding: 1px 20px;
+}
+
+ul{
+    list-style-type: none;
+    height: auto;
+}
+
+.footerListEnd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
 }
