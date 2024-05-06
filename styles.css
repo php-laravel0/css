@@ -141,9 +141,11 @@ img{
     text-align: center;
 
     background-color: white;
-    max-width: 1200px; 
-    margin: 0 auto; 
-    padding: 20px;
+    max-width: 1200px;
+
+    border: 8px; 
+    width: 100%;
+    height: auto;
     box-sizing: border-box; 
 }
 
@@ -180,4 +182,8 @@ ul{
     align-items: center;
     flex-wrap: wrap;
     height: auto;
+}
+
+*{
+    display: float;
 }
