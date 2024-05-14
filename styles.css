@@ -1,14 +1,15 @@
-#banner{
+#banner {
     display: flex;
     flex-direction: column;
     padding: 200px 80px;
     border: 200px 150px;
 
 }
+
 #facebook {
     color: blue;
     font-size: 69px;
-    
+
     font-family: "Heinemann-Bold";
 }
 
@@ -16,10 +17,12 @@
     font-family: "Heinemann-Bold";
     src: url("Heinemann-Bold.woff") format('woff');
 }
+
 .flex-container {
     display: flex;
     flex-direction: row;
 }
+
 #banner .flex-container {
     display: flex;
     margin-left: 20px;
@@ -34,16 +37,18 @@
 
 .HalfBox {
     display: flex;
+    width: 50%;
+    margin: 0 auto;
     margin-left: 150px;
     flex-direction: row;
 }
 
-#signUp{
+#signUp {
     display: flex;
     border-color: rgba(128, 128, 128, 0.007);
     background-color: white;
     flex-direction: column;
-    border-color: grey; 
+    border-color: grey;
     border-radius: 8px;
     box-shadow: inset;
     max-height: 400px;
@@ -52,18 +57,19 @@
     margin-right: 70px;
 }
 
-.signUpBox{
+.signUpBox {
     display: flex;
     padding: 200px 80px;
     margin-right: 1200px;
-
+    margin-top: 20px;
     flex-direction: column;
 }
-#HalfBox{
+
+#HalfBox {
     margin: auto;
 }
 
-#LogIn{
+#LogIn {
     background-color: #2074f4;
     color: white;
     border: #2596be;
@@ -71,23 +77,33 @@
     margin: 4px 20px;
     border-radius: 5px;
 }
-html{
+
+html {
     background-color: #f0f1f5;
 }
 
 
-.buttons{
+.buttons {
     border-radius: 5px;
     font-size: smaller;
     border-width: .8px;
-    border-color: gray ;
+    border-color: gray;
     opacity: 50%;
 
     padding: 10px 10px;
     margin: 8px 7px;
 }
 
-.buttons:hover{
+
+#facebook img {
+    margin-bottom: 10px;
+}
+
+#para p {
+    text-align: center;
+}
+
+.buttons:hover {
     border-color: #2074f4;
 }
 
@@ -103,14 +119,15 @@ html{
     padding: 1px 1px;
     background-color: #44b430;
 }
-#pageCreation{
+
+#pageCreation {
     margin: 20px 20px;
 }
 
-hr{
+hr {
     border: 0.025px solid gray;
     opacity: 40%;
-    margin:1px 1px;
+    margin: 1px 1px;
     border-radius: 14px;
     width: 340px;
 }
@@ -118,29 +135,32 @@ hr{
 a {
     text-decoration: none;
     color: #2074f4;
-    margin: 5px 110px ;
+    margin: 5px 110px;
 }
 
-::placeholder:hover{
+::placeholder:hover {
     opacity: 65%;
 }
+
 p {
     font-size: 19px;
     height: 180px;
 }
-img{
+
+img {
     max-width: 300p;
     min-width: 100px
 }
-#footerHR{
+
+#footerHR {
     width: 100%;
 }
 
-.footerEnd{
+.footerEnd {
     color: grey;
     text-align: center;
     background-color: white;
-
+    text-align: center;
     display: flex;
     flex-direction: column;
     margin-top: auto;
@@ -149,11 +169,11 @@ img{
     width: 100%;
     right: 0;
     top: 0;
-    border: 2px; 
-    box-sizing: border-box; 
+    border: 2px;
+    box-sizing: border-box;
 }
 
-.footerList{
+.footerList {
     list-style-type: none;
     background-color: white;
     display: flex;
@@ -161,9 +181,10 @@ img{
     align-items: center;
     padding: 20px 90px;
     flex-wrap: wrap;
-    color:grey;
+    color: grey;
 }
-li{
+
+li {
     float: left;
     text-align: center;
     padding: 16px;
@@ -171,17 +192,17 @@ li{
     opacity: 50%;
 }
 
-#footerDetails{
+#footerDetails {
     list-style-type: none;
     padding: 1px 20px;
 }
 
-ul{
+ul {
     list-style-type: none;
     height: auto;
 }
 
-.footerListEnd{
+.footerListEnd {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -191,6 +212,36 @@ ul{
 }
 
 
-body{
+
+
+body {
     margin: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  
+    .HalfBox {
+    width: 50%;
+  }
+
+}
+
+@media screen and (max-width: 360px) {
+    #banner {
+      flex-direction: column;
+      align-items: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .HalfBox {
+      width: 0%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #banner {
+      flex-direction: column;
+      align-items: center;
+    }
 }
