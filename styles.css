@@ -21,6 +21,13 @@ img.facebook-logo {
   padding-right: 63px;
 }
 
+.metaCopy {
+  margin-top: 10px;
+  color: #737373;
+  max-height: fit-content;
+  padding-right: 1060px;
+  font-size: 12px;
+}
 
 #facebook {
   color: blue;
@@ -222,14 +229,17 @@ img {
   max-width: 300p;
   min-width: 50px;
 }
-
 #footerHR {
-  width: 100%;
+  width: 90%;
+  border: 0.5px solid #737373;
+  margin: 10px auto;
+  font-size: 12pxfoo;
 }
 
 div.footerEnd {
   width: 100%;
   display: flex;
+  text-align: center;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: flex-end;
@@ -238,14 +248,13 @@ div.footerEnd {
   bottom: 0;
   background-color: white;
   color: grey;
-  text-align: center;
   margin-top: 30px;
   left: 0;
   right: 0;
   top: 0;
   position: relative;
   font-size: 12px;
-  padding: 20px 0; /* Reduced padding to make it smaller */
+  padding: 10px 0; /* Reduced padding to make it smaller */
   margin: 0;
   width: 100%;
   border: 2px;
@@ -254,11 +263,12 @@ div.footerEnd {
 }
 
 .footerList {
-  list-style-type: none;
-  background-color: white;
+
   display: flex;
   flex-wrap: nowrap; /* Prevent wrapping to a new line */
-  justify-content: center; /* Centers the content horizontally */
+  list-style-type: none;
+  background-color: white;
+  justify-content: center; 
   align-items: center;
   padding: 0;
   margin: 0;
@@ -268,14 +278,20 @@ div.footerEnd {
 
 .footerList,
 .footerListEnd {
-  flex-wrap: wrap;
-
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  overflow-x: auto;
   text-align: center;
+  white-space: nowrap;
 }
 
 .footerList li {
   opacity: 0.7;
   font-size: 12px;
+  cursor: pointer;
   white-space: nowrap;
   margin: 0 10px;
   overflow: hidden;
@@ -309,21 +325,23 @@ ul.footerList {
   list-style-type: none;
   padding-top: 8px;
   align-items: center;
+  padding-right: 1060px;
   margin: 0px;
   padding: 0px; 
   }
 
 .footerListEnd {
   display: flex;
-  vertical-align: top;
+  vertical-align: start;
   align-items: center;
   list-style-type: none;
   flex-wrap: wrap;
   justify-content: start;
+  gap: 1px;
   flex-direction: row;
-  padding-left: 20px;
+  padding: 10px 60px;
   width: 100%;
-  margin: 0;
+  margin: 5px;
   text-align: center;
   height: auto;
 }
@@ -332,7 +350,7 @@ ul.footerList {
   white-space: nowrap;
   margin: 0 0;
   flex: 0 1 9em;
-  font-size: .9em;
+  font-size: 12px;
   text-align: center;
 }
 
