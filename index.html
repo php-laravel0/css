@@ -1,124 +1,91 @@
 <!DOCTYPE html>
-  <html lang="en">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="stylesheet" href="styles.css" />
+    <title>Facebook</title>
   </head>
 
   <body>
-    <div class="HalfBox">
-      <div id="banner" class="flex-container">
-        <div id="facebook">
-          <img src="Vector.png" alt="Facebook Logo" class="facebook-logo" />
-        </div>
-        <div id="para"> 
-          <p >
-          Connect with friends and the world <br>around you on Facebook.
-          </p>
-        </div>
+    <div id="homepageParent">
+      <div id="homepageLeft" class="homepageBox"></div>
+      <div id="homepageRight" class="homepageBox">
+        <div id="login-page-container">
+          
+          <form action="YOUR_LOGIN_ENDPOINT" method="POST">
+            <!-- Inputs and buttons go here -->
+            <input type="text" name="text" id="">
+            <input type="password" name="password" id="">
+            <button type="submit">Log In</button>
+            <a href="FORGOT_PASSWORD_LINK">Forgotten password?</a>
+            <hr>
+            <button type="button">Create New Account</button>
+
+
+        </form>
       </div>
-
-      <div class="signUpBox">
-        <div id="signUp">
-          <label for="SignIn"></label>
-          <input
-            type="text"
-            placeholder="Email or phone number"
-            id="SignIn"
-            class="buttons"
-          />
-
-          <label for="EmailCredentials-pw"></label>
-          <input
-            id="EmailCredentials-pw"
-            type="text"
-            placeholder="Password"
-            class="buttons"
-          />
-
-          <button id="LogIn">Log In</button>
-
-          <a
-            href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0"
-            class="forgotpw"
-            >Forgot password?</a
-          >
-          <hr />
-
-          <button id="newAccount">Create new account</button>
-        </div>
-
-        <footer id="pageCreation">
-          <strong> Create a Page </strong> for a celebrity, brand or business.
-        </footer>
+        
       </div>
     </div>
 
-    <div class="footerEnd">
-      <ul class="footerList">
-        <li>English (UK)</li>
-        <li>हिन्दी</li>
-        <li>اردو</li>
-        <li>ਪੰਜਾਬੀ</li>
-        <li>বাংলা</li>
-        <li>ગુજરાતી</li>
-        <li>मराठी</li>
-        <li>தமிழ்</li>
-        <li>తెలుగు</li>
-        <li>മലയാളം</li> 
-        <li>ಕನ್ನಡ</li>
-      </ul>
-      <br />
-      <hr id="footerHR" />
-      <ul class="footerListEnd">
-        <li>Sign Up</li>
-        <li>Log in</li>
-        <li>Messenger</li>
-        <li>Facebook Lite</li>
-        <li>Video</li>
-        <li>Places</li>
-        <li>Games</li>
-        <li>Marketplace</li>
-        <li>Meta Pay</li>
-        <li>Meta Store</li>
-        <li>Meta Quest</li>
-        <li>Meta AI</li>
-        <li>Instagram</li>
-        <li>Threads</li>
-        <li>Fundraisers</li>
-        <li>Services</li>
-        <li>Voting Information Centre</li>
-        <li>Privacy Policy</li>
-        <li>Privacy Centre</li>
-        <li>Groups</li>
-        <li>About</li>
-        <li>Create ad</li>
-        <li>Create Page</li>
-        <li>Developers</li>
-        <li>Careers</li>
-        <li>Cookies</li>
-        <li>AdChoices</li>
-        <li>Terms</li>
-        <li>Help</li>
-        <li>Contact uploading and non-users</li>
-      </ul>
-      <p class="metaCopy">Meta © 2024</p>
-    </div>
+    
+    
+    <footer>
+      <!-- Language Links -->
+      <div>
+        <a href="">English (UK)</a> |
+        <a href="">العربية</a> |
+        <a href="">Français (France)</a> |
+        <a href="">Español</a> |
+        <a href="">Português (Brasil)</a> |
+        <a href="">Italiano</a> |
+        <a href="">Deutsch</a> |
+        <a href="">हिन्दी</a> |
+        <a href="">中文(简体)</a> |
+        <a href="">日本語</a> |
+        <a href="">Bahasa Indonesia</a> |
+        <a href="">한국어</a> |
+        <a href="">اردو</a> |
+        <a href="">русский</a> |
+        <a href="">বাংলা</a> |
+        <a href="">Türkçe</a>
+      </div>
+    
+      <br>
+    
+      <!-- Site Links -->
+      <div>
+        <a href="#">Sign Up</a> |
+        <a href="#">Log In</a> |
+        <a href="#">Messenger</a> |
+        <a href="#">Facebook Lite</a> |
+        <a href="#">Video</a> |
+        <a href="#">Places</a> |
+        <a href="#">Games</a> |
+        <a href="#">Marketplace</a> |
+        <a href="#">Meta Pay</a> |
+        <a href="#">Meta Store</a> |
+        <a href="#">Ray-Ban Meta</a> |
+        <a href="#">Meta AI</a> |
+        <a href="#">Instagram</a> |
+        <a href="#">Threads</a> |
+        <a href="#">Fundraisers</a> |
+        <a href="#">Services</a> |
+        <a href="#">Privacy Policy</a> |
+        <a href="#">Privacy Centre</a> |
+        <a href="#">Groups</a> |
+        <a href="#">About</a> |
+        <a href="#">Create ad</a> |
+        <a href="#">Create Page</a> |
+        <a href="#">Developers</a>
+      </div>
+    
+      <br>
+    
+      <div>
+        Meta © 2025
+      </div>
+    </footer>
+    
   </body>
 </html>
